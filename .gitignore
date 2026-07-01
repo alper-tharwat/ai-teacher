@@ -1,0 +1,75 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ===== Virtual Environment =====
+venv/
+env/
+ENV/
+.venv/
+
+# ===== IDE =====
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ===== Streamlit =====
+.streamlit/secrets.toml
+
+# ===== مفاتيح ومعلومات حساسة =====
+.env
+.env.local
+*.key
+secrets.json
+config_local.py
+
+# ===== الملفات المؤقتة =====
+temp/
+*.log
+*.tmp
+audio_cache/
+temp_audio/
+
+# ===== قاعدة البيانات =====
+database/keys_state.json
+*.db
+*.sqlite
+
+# ===== ملفات Whisper الكبيرة =====
+*.pt
+models/
+
+# ===== ملفات الصوت المرفوعة =====
+*.mp3
+*.wav
+*.m4a
+*.ogg
+*.flac
+*.aac
+*.wma
+!assets/audio/*
+
+# ===== ملفات PDF =====
+*.pdf
+
+# ===== صور وملفات كبيرة =====
+*.zip
+*.rar
+*.7z
+
+# ===== Jupyter =====
+.ipynb_checkpoints/
+*.ipynb

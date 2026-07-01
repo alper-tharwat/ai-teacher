@@ -1,0 +1,1 @@
+from .pricing_page import render_pricing_page

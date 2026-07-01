@@ -1,0 +1,37 @@
+{
+  "colors": {
+    "primary": "#667eea",
+    "secondary": "#764ba2",
+    "success": "#11998e",
+    "danger": "#dc3545",
+    "warning": "#ff9800",
+    "info": "#2196f3",
+    "background": "#ffffff",
+    "text_primary": "#2c3e50",
+    "text_secondary": "#7f8c8d"
+  },
+  "sizes": {
+    "header_size": 32,
+    "title_size": 24,
+    "text_size": 15,
+    "button_padding": 12,
+    "card_padding": 20,
+    "border_radius": 12
+  },
+  "spacing": {
+    "gap_small": 5,
+    "gap_medium": 15,
+    "gap_large": 25
+  },
+  "effects": {
+    "shadow_enabled": true,
+    "shadow_intensity": 0.1,
+    "animations_enabled": true,
+    "gradient_enabled": true
+  },
+  "fonts": {
+    "family": "Cairo",
+    "weight_normal": 400,
+    "weight_bold": 700
+  }
+}
